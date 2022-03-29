@@ -1,10 +1,4 @@
 """
-Author: Pablo Rivero Lazaro
-NIA: 100429366
-Date started: 1-12-2021
-File version: 1.0
-Version date: 7-12-2021
-
 Description:
   This file contains the class for power elements, with this class it can be computed how several connected
   elements behave like only one, to be able to perform calculations faster.

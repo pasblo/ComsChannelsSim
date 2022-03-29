@@ -1,10 +1,4 @@
 """
-Author: Pablo Rivero Lazaro
-NIA: 100429366
-Date started: 1-12-2021
-File version: 1.0
-Version date: 7-12-2021
-
 Description:
   This file contains a class for simulating the channel element in a comunication system, it can simulate
   how different attenuations affect the power, probabilities of error, and simulate bit by bit error.

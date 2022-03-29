@@ -1,10 +1,4 @@
 """
-Author: Pablo Rivero Lazaro
-NIA: 100429366
-Date started: 1-12-2021
-File version: 1.0
-Version date: 7-12-2021
-
 Description:
   This file contains a class for simulating a modulator or demodulator, depending on the analysis that needs
   to be performed it will support several types of modulations.

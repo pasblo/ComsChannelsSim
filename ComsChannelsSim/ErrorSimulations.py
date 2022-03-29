@@ -1,10 +1,4 @@
 """
-Author: Pablo Rivero Lazaro
-NIA: 100429366
-Date started: 1-12-2021
-File version: 1.0
-Version date: 7-12-2021
-
 Description:
   This file contains an assortment of functions used to simulate different probabilities in error sequences.
 """

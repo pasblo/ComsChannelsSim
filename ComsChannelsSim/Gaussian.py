@@ -1,10 +1,4 @@
 """
-Author: Pablo Rivero Lazaro
-NIA: 100429366
-Date started: 1-12-2021
-File version: 1.0
-Version date: 7-12-2021
-
 Description:
   This file contains the gaussian class, it allows to interface with the gaussian distribution, being
   able to get probabilities from it, and plotting results.

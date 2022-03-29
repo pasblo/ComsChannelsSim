@@ -1,11 +1,3 @@
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -19,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/pasblo/ComsChannelsSim">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="media/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">project_title</h3>
@@ -85,12 +77,57 @@ The project contains some examples using all created functions as reference, and
 
 Some samples of different sample codes working:
 
+* A 16-PSK modulation plot
+<p align="center">
+  <img src="media/Constellation1.png" alt="Logo" width="80" height="80">
+</p>
+
+* A 16-QAM modulation plot
+<p align="center">
+  <img src="media/Contellation2.png" alt="Logo" width="80" height="80">
+</p>
+
+* A EbNo vs BER plot for different modulations
+<p align="center">
+  <img src="media/EbNo_BER.png" alt="Logo" width="80" height="80">
+</p>
+
+* An example of power element concatenated
+<p align="center">
+  <img src="media/PowerElement.png" alt="Logo" width="80" height="80">
+</p>
+
+* A complex example of power element concatenated
+<p align="center">
+  <img src="media/PowerElementComplex.png" alt="Logo" width="80" height="80">
+</p>
+
+* A markov model of two states
+<p align="center">
+  <img src="media/MarkovModel.png" alt="Logo" width="80" height="80">
+</p>
+
+* Information from different transmission algorithms
+<p align="center">
+  <img src="media/TransmissionAlgorithms.png" alt="Logo" width="80" height="80">
+</p>
+
+* Plotting of a gaussian function (The library does also include a function for it)
+<p align="center">
+  <img src="media/GaussianCurve.png" alt="Logo" width="80" height="80">
+</p>
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [numpy](https://github.com/numpy/numpy)
+* [itertools](https://github.com/iter-tools/iter-tools)
+* random
+* [scipy](https://github.com/scipy/scipy)
+* math
+* [komm](https://github.com/rwnobrega/komm)
+* cmath
+* [matplotlib](https://github.com/matplotlib/matplotlib)
+* time
 
 
 
@@ -121,14 +158,6 @@ The project uses some libraries that need to be installed, you can use the pip i
    ```sh
    git clone https://github.com/pasblo/ComsChannelsSim.git
    ```
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
@@ -181,15 +210,15 @@ Project Link: [https://github.com/pasblo/ComsChannelsSim](https://github.com/pas
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/pasblo/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/pasblo/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/pasblo/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/pasblo/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/pasblo/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/pasblo/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/pasblo/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/pasblo/repo/issues
+[license-shield]: https://img.shields.io/github/license/pasblo/repo.svg?style=for-the-badge
+[license-url]: https://github.com/pasblo/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/pablo-rivero-l%C3%A1zaro-961333207/
