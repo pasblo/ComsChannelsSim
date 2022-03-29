@@ -12,12 +12,13 @@ import cmath
 import time
 
 # Importing all custom libraries
-import utils
-import Gaussian
-import MarkovChain
-import ChannelElement
-import PowerElement
-import ModulationElement
+import ComsChannelsSim
+import ComsChannelsSim.utils as utils
+import ComsChannelsSim.Gaussian as Gaussian
+import ComsChannelsSim.MarkovChain as MarkovChain
+import ComsChannelsSim.ChannelElement as ChannelElement
+import ComsChannelsSim.PowerElement as PowerElement
+import ComsChannelsSim.ModulationElement as ModulationElement
 
 # Testing "Gaussian.py"
 """testGaussian = Gaussian.Gaussian(0, 2)
@@ -32,12 +33,12 @@ plt.show()"""
 # gilbertModel.estimateParametersGilbert(generateSequenceBits(0.3, 1000000))
 gilbertModel.estimateParametersGilbert(np.array([0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0]))
 
-""
+
 ba = bitarray.bitarray()
-ba.frombytes('Hello, my name is Pasblo'.encode('utf-8'))
+ba.frombytes('This is a test'.encode('utf-8'))
 print(ba.tolist())
 gilbertModel.estimateParametersGilbert(ba.tolist())
-""
+
 
 gilbertModel.printReleventData()
 gilbertModel.simulateModel(50, 0)"""
@@ -77,7 +78,7 @@ filter.printEquivalentValues()"""
 """testModulator = ModulationElement.modulationElement("PSK", 2)
 testModulator2 = ModulationElement.modulationElement("PSK", 8)
 testModulator3 = ModulationElement.modulationElement("PSK", 16)
-testModulator.drawConstellation()
+testModulator2.drawConstellation()
 plt.show() # Not showing inside to be able to add stuff outside
 
 testModulator.draw_BER_EbNo_curve(EbNo_dB_min = 0, EbNo_dB_max = 18, BER_min = 1e-8, color = 'b', titleEnabled = False)

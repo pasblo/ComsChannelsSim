@@ -18,7 +18,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/pasblo/ComsChannelsSim">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -27,14 +27,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/pasblo/ComsChannelsSim"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/pasblo/ComsChannelsSim">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/pasblo/ComsChannelsSim/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/pasblo/ComsChannelsSim/issues">Request Feature</a>
   </p>
 </p>
 
@@ -71,11 +71,19 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This project allows the simulation of different channel elements:
+* Channel element: Allows simulating how different attenuations affect the power, probabilities of error, and simulate bit by bit error.
+* Modulation element: Allows simulating a modulator or demodulator, supports several modulation techniques, such as X-PSK, X-FSK, QAM and PAM. It can be used to calculate different types of error rates, graph SNR curves and calculating bandwiths.
+* Power element: Allows the connection of several elements in cascade to calculate their overall effect on a received signal.
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+All elements support working in natural units or in logarithmic units, and can be chained toguether to sumilate more complex systems.
+The repository does also allow the calculation of some values in the system and the optimization of others.
+
+The project contains some examples using all created functions as reference, and most of the functions in the library are documented on how to use them:
+* LibraryTester: A program that allows to test the different fucntions and classes to get used to them. Uncomment the part you want to test.
+* SamplesSolutions: A program that shows how to use this library in the real world, uses the problems samples proposed and solves them using this library.
+
+Some samples of different sample codes working:
 
 
 ### Built With
@@ -93,23 +101,26 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+The project uses some libraries that need to be installed, you can use the pip installer, go check <a href="https://github.com/pypa/get-pip">this project by pypa</a>, on how to install easily pip.
+* scipy
   ```sh
-  npm install npm@latest -g
+  pip install scipy
+  ```
+* komm
+  ```sh
+  pip install komm
+  ```
+* matplotlib
+  ```sh
+  pip install matplotlib
   ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/pasblo/ComsChannelsSim.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -124,7 +135,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/pasblo/ComsChannelsSim/issues) for a list of proposed features (and known issues).
 
 
 
@@ -153,7 +164,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/pasblo/ComsChannelsSim](https://github.com/pasblo/ComsChannelsSim)
 
 
 
@@ -181,4 +192,4 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://www.linkedin.com/in/pablo-rivero-l%C3%A1zaro-961333207/
