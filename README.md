@@ -79,42 +79,42 @@ Some samples of different sample codes working:
 
 * A 16-PSK modulation plot
 <p align="center">
-  <img src="media/Constellation1.png" alt="Logo" width="80" height="80">
+  <img src="media/Constellation1.png">
 </p>
 
 * A 16-QAM modulation plot
 <p align="center">
-  <img src="media/Contellation2.png" alt="Logo" width="80" height="80">
+  <img src="media/Contellation2.png">
 </p>
 
 * A EbNo vs BER plot for different modulations
 <p align="center">
-  <img src="media/EbNo_BER.png" alt="Logo" width="80" height="80">
+  <img src="media/EbNo_BER.png">
 </p>
 
 * An example of power element concatenated
 <p align="center">
-  <img src="media/PowerElement.png" alt="Logo" width="80" height="80">
+  <img src="media/PowerElement.PNG">
 </p>
 
 * A complex example of power element concatenated
 <p align="center">
-  <img src="media/PowerElementComplex.png" alt="Logo" width="80" height="80">
+  <img src="media/PowerElementComplex.PNG">
 </p>
 
 * A markov model of two states
 <p align="center">
-  <img src="media/MarkovModel.png" alt="Logo" width="80" height="80">
+  <img src="media/MarkovModel.PNG">
 </p>
 
 * Information from different transmission algorithms
 <p align="center">
-  <img src="media/TransmissionAlgorithms.png" alt="Logo" width="80" height="80">
+  <img src="media/TransmissionAlgorithms.PNG">
 </p>
 
 * Plotting of a gaussian function (The library does also include a function for it)
 <p align="center">
-  <img src="media/GaussianCurve.png" alt="Logo" width="80" height="80">
+  <img src="media/GaussianCurve.png">
 </p>
 
 ### Built With
@@ -191,7 +191,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Pablo Rivero - [@Pasblo39](https://twitter.com/PabloRiveroLaz2) - pabriv23@gmail.com
 
 Project Link: [https://github.com/pasblo/ComsChannelsSim](https://github.com/pasblo/ComsChannelsSim)
 
