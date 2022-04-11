@@ -103,6 +103,11 @@ Some samples of different sample codes working:
   <img src="media/TransmissionAlgorithms.PNG">
 </p>
 
+* A Distance to Received Power graph
+<p align="center">
+  <img src="media/Distance_ReceivedPower.PNG">
+</p>
+
 * Plotting of a gaussian function (The library does also include a function for it)
 <p align="center">
   <img src="media/GaussianCurve.png">
