@@ -83,6 +83,11 @@ Some samples of different sample codes working:
   <img src="media/EbNo_BER.png">
 </p>
 
+* A Distance to Received Power graph
+<p align="center">
+  <img src="media/Distance_ReceivedPower.png">
+</p>
+
 * An example of power element concatenated
 <p align="center">
   <img src="media/PowerElement.PNG">
@@ -101,11 +106,6 @@ Some samples of different sample codes working:
 * Information from different transmission algorithms
 <p align="center">
   <img src="media/TransmissionAlgorithms.PNG">
-</p>
-
-* A Distance to Received Power graph
-<p align="center">
-  <img src="media/Distance_ReceivedPower.PNG">
 </p>
 
 * Plotting of a gaussian function (The library does also include a function for it)
