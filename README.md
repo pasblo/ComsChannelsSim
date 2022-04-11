@@ -196,6 +196,5 @@ Project Link: [https://github.com/pasblo/ComsChannelsSim](https://github.com/pas
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* Carlos Bousoño Calzon por las clases de Sistemas y Canales de transmision en la UC3M.
+* Carlos Bousoño Calzon y Francisco Javier Serrano por dejarme usar los ejercicios propuestos como ejemplo.

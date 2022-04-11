@@ -14,6 +14,7 @@ import ComsChannelsSim.ErrorSimulations as errorSim
 
 
 # Testing "Gaussian.py"
+print("\n\n###### GAUSSIAN TEST ######\n")
 testGaussian = Gaussian.Gaussian(0, 2)
 testGaussian.plotGaussian(0, 1)
 print(testGaussian.probabilityNormalizedRange(-4, 2.6))
@@ -21,6 +22,7 @@ plt.show()
 
 
 # Testing "ChannelElement.py"
+print("\n\n###### CHANNEL ELEMENT TEST ######\n")
 channel = ChannelElement.channelElement("AWGN")
 #channel.plotFresnelAttenuation(-4, 4)
 plt.show()
@@ -34,6 +36,7 @@ plt.show()
 
 
 # Testing "PowerElement.py"
+print("\n\n###### POWER ELEMENT TEST ######\n")
 cable = PowerElement.powerElement(attenuation_dB = 2)
 amp = PowerElement.powerElement(gain_dB = 10, figure = 3, previousElement = cable)
 filter = PowerElement.powerElement(attenuation_dB = 1, previousElement = amp)
@@ -48,6 +51,7 @@ filter.printEquivalentValues()
 
 
 # Testing "ModulationElement.py"
+print("\n\n###### MODULATION ELEMENT TEST ######\n")
 testModulator = ModulationElement.modulationElement("PSK", 2)
 testModulator2 = ModulationElement.modulationElement("PSK", 8)
 testModulator3 = ModulationElement.modulationElement("PSK", 16)
@@ -79,6 +83,8 @@ receiverAntennaHeight = 1.5 # m
 carrierFrequency = 900e6 # Hz
 
 channel = ChannelElement.channelElement("AWGN")
+
+print("\n\n###### Problem 4.1 ######\n")
 
 # Section 1 a) (#4#1a)
 channel.setAttenuations(attenuation_dB = 0)
@@ -123,6 +129,7 @@ amp_gain_dB = 40 # dB
 amp_figure = 20 # dB
 
 # Section 1
+print("\n\n###### Problem 5.1 ######\n")
 sateliteAntennaGain_dB = 10 # dB
 Pe_objective = 1e-6
 
@@ -156,6 +163,7 @@ transmittedPowerNeeded_dB = channel1.calculateTransmittedPower(receivedPower_dB 
 print("Transmitted power needed: {:.2f}dB".format(transmittedPowerNeeded_dB))
 
 # Section 2
+print("\n\n###### Problem 5.2 ######\n")
 # Calculating the necesary received power to ensure a disponibility of 98%
 receivedPower_dB = channel1.calculateReceivedPower_disponibility(disponibility_objetive = 0.98, sensitivity_dB = sensitivity_dB, standardDeviation = 3.5)
 print("Received power needed: {:.2f}dB".format(receivedPower_dB))
@@ -164,6 +172,7 @@ linkMargin = channel1.calculateLinkMargin(receivedPower_dB = receivedPower_dB, s
 print("Link margin: {:.2f}dB".format(linkMargin))
 
 # Section 3
+print("\n\n###### Problem 5.3 ######\n")
 newSensitivity_dB = sensitivity_dB + linkMargin
 
 testing_amp = amp_gain_dB
@@ -199,6 +208,7 @@ while round(transmittedPower_dB, ndigits) != round(transmittedPowerNeeded_dB, nd
 print("Amplification gain: {:.2f}dB".format(testing_amp))
 
 # Section 4
+print("\n\n###### Problem 5.4 ######\n")
 # The bandwith changes -> SNR changes -> SNR is directly proportional to Rb
 testing_amp = amp_gain_dB
 
@@ -243,12 +253,14 @@ gilbert_t00 = 0.99 # Remember that we have the order reversed in simulation
 gilbert_t11 = 0.88 
 
 # Section 1 (#15#1)
+print("\n\n###### Problem 15.1 ######\n")
 gilbert_transition = [[gilbert_t00, 1 - gilbert_t11], [1 - gilbert_t00, gilbert_t11]]
 gilbert_errorProbabilities = [0, gilbert_Pe_bad]
 markov = MarkovChain.markovChain(M = 2, T = gilbert_transition, Pe = gilbert_errorProbabilities)
 markov.printReleventData()
 
 # Section 2 (#15#2)
+print("\n\n###### Problem 15.2 ######\n")
 dopler = markov.getT(1, 0)*Rs*markov.getΠ(1)
 print("\nDopler: {:.2f}".format(dopler))
 Tc = 1/dopler
