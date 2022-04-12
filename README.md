@@ -63,8 +63,8 @@ All elements support working in natural units or in logarithmic units, and can b
 The repository does also allow the calculation of some values in the system and the optimization of others.
 
 The project contains some examples using all created functions as reference, and most of the functions in the library are documented on how to use them:
-* LibraryTester: A program that allows to test the different fucntions and classes to get used to them. Uncomment the part you want to test.
-* SamplesSolutions: A program that shows how to use this library in the real world, uses the problems samples proposed and solves them using this library.
+* Examples: A program that allows to test the different fucntions and classes to get used to them. It also includes the exercises in ExamplesStatements solved.
+* ExamplesStatements: Some exercises statements extracted from the classes on Systems and Transmission Channels on the UC3M.
 
 Some samples of different sample codes working:
 
