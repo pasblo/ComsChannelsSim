@@ -1,4 +1,7 @@
 """
+Author: Pablo Rivero Lazaro (Pasblo)
+Contact: pasblo39@gmail.com
+Version: 1.0
 Description:
   This file contains an assortment of functions used by other parts of the library, ranging from bit sequence manipulation
   statistical functions, unit conversions and plotting shortcuts.

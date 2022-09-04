@@ -1,4 +1,7 @@
 """
+Author: Pablo Rivero Lazaro (Pasblo)
+Contact: pasblo39@gmail.com
+Version: 1.0
 Description:
   This file contains the markov chain class, capable of performing different types of estimations and simulations
   about its own performance and can also simulate itself.

@@ -1,4 +1,7 @@
 """
+Author: Pablo Rivero Lazaro (Pasblo)
+Contact: pasblo39@gmail.com
+Version: 1.0
 Description:
   This file contains the class for power elements, with this class it can be computed how several connected
   elements behave like only one, to be able to perform calculations faster.

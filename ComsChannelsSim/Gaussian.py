@@ -1,4 +1,7 @@
 """
+Author: Pablo Rivero Lazaro (Pasblo)
+Contact: pasblo39@gmail.com
+Version: 1.0
 Description:
   This file contains the gaussian class, it allows to interface with the gaussian distribution, being
   able to get probabilities from it, and plotting results.

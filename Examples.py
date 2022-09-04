@@ -1,3 +1,9 @@
+"""
+Author: Pablo Rivero Lazaro (Pasblo)
+Contact: pasblo39@gmail.com
+Version: 1.0
+"""
+
 import matplotlib.pyplot as plt
 import math
 import numpy as np

@@ -1,4 +1,7 @@
 """
+Author: Pablo Rivero Lazaro (Pasblo)
+Contact: pasblo39@gmail.com
+Version: 1.0
 Description:
   This file contains a class for simulating a modulator or demodulator, depending on the analysis that needs
   to be performed it will support several types of modulations.

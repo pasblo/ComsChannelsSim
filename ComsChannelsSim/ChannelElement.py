@@ -1,4 +1,7 @@
 """
+Author: Pablo Rivero Lazaro (Pasblo)
+Contact: pasblo39@gmail.com
+Version: 1.0
 Description:
   This file contains a class for simulating the channel element in a comunication system, it can simulate
   how different attenuations affect the power, probabilities of error, and simulate bit by bit error.
