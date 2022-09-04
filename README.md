@@ -187,7 +187,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Pablo Rivero - [@Pasblo39](https://twitter.com/PabloRiveroLaz2) - pabriv23@gmail.com
+Pablo Rivero - [@Pasblo39](https://twitter.com/pasblo39) - pasblo39@gmail.com
+
+Linkedin - [Pablo Rivero](https://www.linkedin.com/in/pablo-rivero-l%C3%A1zaro-961333207/)
 
 Project Link: [https://github.com/pasblo/ComsChannelsSim](https://github.com/pasblo/ComsChannelsSim)
 
